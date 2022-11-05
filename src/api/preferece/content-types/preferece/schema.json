@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prefereces",
+  "info": {
+    "singularName": "preferece",
+    "pluralName": "prefereces",
+    "displayName": "Preference",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "iconName": {
+      "type": "string"
+    }
+  }
+}

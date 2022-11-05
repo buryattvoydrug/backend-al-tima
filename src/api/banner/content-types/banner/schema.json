@@ -1,0 +1,96 @@
+{
+  "kind": "singleType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_1": {
+      "type": "string"
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "colortext2": {
+      "type": "string"
+    },
+    "image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link2": {
+      "type": "string"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "text3": {
+      "type": "string"
+    },
+    "colortext3": {
+      "type": "string"
+    },
+    "link3": {
+      "type": "string"
+    },
+    "image3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title4": {
+      "type": "string"
+    },
+    "text4": {
+      "type": "string"
+    },
+    "image4": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link4": {
+      "type": "string"
+    }
+  }
+}

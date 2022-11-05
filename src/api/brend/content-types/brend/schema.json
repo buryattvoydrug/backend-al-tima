@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brends",
+  "info": {
+    "singularName": "brend",
+    "pluralName": "brends",
+    "displayName": "Бренд"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "tovars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "brend"
+    }
+  }
+}

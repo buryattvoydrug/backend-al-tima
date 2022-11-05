@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podkategoriyas",
+  "info": {
+    "singularName": "podkategoriya",
+    "pluralName": "podkategoriyas",
+    "displayName": "Подкатегория",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "tovars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "podkategoriya"
+    },
+    "kategoriya": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "podkategoriyass"
+    }
+  }
+}
